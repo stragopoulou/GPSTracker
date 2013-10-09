@@ -1,0 +1,50 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2C587F"
+    android:orientation="vertical" >
+
+    <fragment
+        android:id="@+id/main_map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="350dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:background="#2C587F"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/start_tracking"
+            android:layout_width="81dp"
+            android:layout_height="wrap_content"
+            android:background="#2C587F"
+            android:src="@drawable/rec_button" />
+
+        <ImageButton
+            android:id="@+id/stop_tracking"
+            android:layout_width="81dp"
+            android:layout_height="wrap_content"
+            android:background="#2C587F"
+            android:src="@drawable/stop_button" />
+
+        <ImageButton
+            android:id="@+id/show_on_map"
+            android:layout_width="81dp"
+            android:layout_height="wrap_content"
+            android:background="#2C587F"
+            android:src="@drawable/maps" />
+        
+        <ImageButton
+            android:id="@+id/upload_files"
+            android:layout_width="81dp"
+            android:layout_height="wrap_content"
+            android:background="#2C587F"
+            android:src="@drawable/upload_button" />
+    </LinearLayout>
+
+</FrameLayout>

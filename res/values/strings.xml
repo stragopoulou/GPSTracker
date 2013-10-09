@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GPSTracker</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_maps">Show route on Map</string>
+    <string name="upload_button">Upload</string>
+    <string name="delete_button">Delete</string>
+
+    <string name="title_activity_choose_file">Select File to Open</string>
+    <string name="title_activity_dropbox_upload">Upload File to Dropbox</string>
+    <string name="title_activity_select_multi_files">Check Files to Select</string>
+    <string name="title_activity_delete_file">Delete Selected File</string>
+
+</resources>
