@@ -212,28 +212,6 @@ View.OnClickListener, ServiceConnection{
 		}
 	}
 
-	public int intToSend(String moveType) {
-
-		int id = 0;
-
-		if (moveType.equals("Walking"))
-			id = 1;
-		else if (moveType.equals("Running"))
-			id = 2;
-		else if (moveType.equals("Biking"))
-			id = 3;
-		else if (moveType.equals("Driving"))
-			id = 4;
-		else if (moveType.equals("Metro"))
-			id = 5;
-		else if (moveType.equals("Bus"))
-			id = 6;
-		else if (moveType.equals("Motionless"))
-			id = 7;
-
-		return id;
-	}
-
 	/**
 	 * Handle incoming messages from MyService
 	 */
